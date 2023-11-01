@@ -1,0 +1,95 @@
+body {
+    margin: 0 auto;
+    padding: 0rem 4rem 4rem 4rem;
+    vertical-align: middle;
+}
+
+main {
+    margin: auto auto;
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff89;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+main form {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.det {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+
+}
+
+.quiz label {
+    display: block;
+    width: max-content;
+    text-align: left;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.quiz input[type=text],
+.quiz input[type=number],
+.quiz select {
+    border-radius: 5px;
+    background-color: #bee9e8;
+    border: var(--gray-800) solid 1px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    color: var(--gray-800) !important;
+}
+
+.quiz textarea {
+    resize: vertical;
+    border-radius: 5px;
+    background-color: #bee9e8;
+    width: 100%;
+    font-size: 15px;
+    border-color: var(--gray-800);
+    color: var(--gray-800) !important;
+}
+
+.quiz input[type=text]:is(:focus) {
+    outline-style: solid;
+    outline-offset: 2px;
+    background-color: lightblue;
+}
+
+.quiz textarea:focus {
+    outline-style: solid;
+    outline-offset: 3px;
+    background-color: lightblue;
+}
+
+.quiz input[type=number]:focus {
+    outline-style: solid;
+    outline-offset: 3px;
+    background-color: lightblue;
+}
+
+.quiz button {
+    background-color: #062747;
+    color: white;
+}
+
+.quiz button:hover {
+    background-color: #bee9e8;
+    color: #062747;
+}
