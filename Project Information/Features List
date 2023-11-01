@@ -1,0 +1,36 @@
+Feature List:
+Website Design:
+1. Responsive design using Bootstrap v4/v5 or custom media queries.
+2. Attractive and unified design across all pages.
+3. No use of ready-made templates; design from scratch.
+
+Registration and Login:
+4. User registration with client and server-side validation (regular expressions).
+5. User login with proper authorization.
+
+User Profile Management and Participations:
+6. User profile management, including the ability to change information and passwords.
+7. Browse available quizzes with summaries.
+8. View quiz details (levels, topics, pre-requisites, number of questions, question types).
+
+Conducting Quizzes:
+9. Users can take quizzes multiple times.
+10. Quizzes display questions from database .
+11. View quiz history and scores.
+12. View user's rank in specific quizzes and see the top 10 scores with usernames.
+
+13. users can create new quizzes with the following details:
+- Quiz title
+- Description
+- Picture
+- Define questions and correct answers for quizzes, including:
+- Multiple-choice questions, and
+- True/False questions 
+Data Validation:
+14. Regular expression validation for all form inputs in the implemented functions.
+
+Programming Tools:
+15. Implementation in PHP, HTML/CSS, and JavaScript.
+16. Usage of a MYSQL database.
+17. Utilize PDO/PHP interface for MySQL access.
+18. Deployable on an Apache server.
