@@ -1,0 +1,81 @@
+This developer guideline provides essential information for developers working on the Responsive Web-Based Online Quizzes Website project. It covers coding style, interaction, code formatting, scope, and various coding-related considerations. The following are the key headlines and guidelines for development.
+
+## Documentation and Coding Style
+
+- Maintain clear and consistent code documentation.
+- Use meaningful variable and function names.
+- Follow established coding standards for HTML, CSS, JavaScript, and PHP.
+- Use comments to explain the purpose and functionality of the code.
+
+## Developers’ Interaction
+
+- Adhere to the project's code of conduct.
+- Collaborate with team members through email or communication tools like MS Teams.
+- Respect each other's opinions and contributions to create a positive development environment.
+
+## Code Format
+
+- Each line should contain a single code command.
+- Separate code blocks with a two-line margin for readability.
+
+## Code Scope
+- Use "final" keywords for classes with only default constructor values.
+- Follow the project's guidelines for code scope.
+
+## Other Code-Related Information
+
+- Variable names should be meaningful and relevant to their usage.
+- Include brief comments explaining the purpose of each code block.
+- Consider the project's security and performance requirements.
+
+## More Considerations when Writing Code
+
+- Prioritize secure software development; consider security risks early in the project.
+- Educate yourself on security risks related to project components.
+- Avoid relying solely on out-of-the-box software and default configurations.
+
+## Programming Languages to Use
+
+- The project primarily uses HTML, CSS, JavaScript, and PHP.
+- Stay open to changes and improvements in the choice of programming languages.
+
+## Code Comments
+
+- Comment code to explain the "why" rather than the "what."
+- Use comments to clarify complex or cryptic code.
+- Ensure code comments are concise and meaningful.
+
+## Readability
+
+- Maintain consistent indentation throughout the code.
+- Use horizontal whitespace for code paragraphs and blocks.
+- Avoid excessively long lines (more than 75-80 characters) for better readability.
+
+## Feature Requests
+
+- Feature requests are welcomed but should align with the project's scope and goals.
+- Provide comprehensive information and context for feature requests.
+
+## Requests for Pull
+
+- Submit pull requests for patches, improvements, and new features.
+- Keep pull requests relevant to the project's goals and scope.
+- Include your intention for the changes when creating a pull request.
+- Default to pulling from the master branch.
+
+## Bug Report
+
+When reporting bugs, consider the following:
+
+- Title: Keep it brief and specific; explain the bug in detail.
+- Summary: Provide details on where, when, and how the bug occurred.
+- Visual Evidence: Include screenshots or videos to help developers understand the problem.
+- Expected vs. Actual Result: Highlight the discrepancy.
+- Reproducible Steps: List the steps that trigger the bug.
+- Environment: Include browser, operating system, screen size, and zoom level information.
+- Console Log: Share relevant error messages.
+- Source URL: Provide the source URL to locate the issue.
+- Severity/Priority: Indicate the impact and urgency of the issue.
+- Reporter Name, Assignee, Due Date, and User Conversations.
+
+Follow these guidelines to ensure a consistent and efficient development process while contributing to the Quizzing Website project. Your collaboration and adherence to these guidelines will lead to the creation of a secure and high-quality web application.
