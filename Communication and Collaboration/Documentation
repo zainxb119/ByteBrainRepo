@@ -1,0 +1,63 @@
+A developer wishing to contribute to the project should have:
+-intermediate to advanced technical expertise in web development, including familiarity with HTML, CSS, JavaScript, PHP, MySQL, and version control systems like Git. 
+-Prior experience with web server configurations, especially Apache, is beneficial. 
+
+Software Setup:
+ Prerequisites
+1. Web Server Environment: Install and configure an Apache server on your local machine or a hosting environment.
+2. Database System: Set up a MySQL database and ensure the PDO/PHP interface is enabled.
+3. Git: Install Git for version control.
+  Steps:-
+1. Clone the Repository:
+   git clone https://github.com/zainxb119/bytebrain-repo.git
+
+2. Configure Web Server
+   - Point the server root to the project's public directory.
+   - Ensure necessary permissions are set.
+
+3. Database Setup
+   - Import the provided SQL file into your MySQL database.
+   mysql -u username -p database_name < database.sql
+
+4. Configuration Files
+   -Copy the sample configuration files and update database credentials.
+   cp config.sample.php config.php
+
+5. Dependencies
+   - Install any required dependencies using Composer.
+   composer install
+
+6. Testing Environment
+   - Set up a testing environment for running unit tests.
+   phpunit
+
+7. Access the Website
+   - Open a web browser and navigate to the configured server address.
+
+Example: Creating a New Quiz
+
+Let's walk through the process of creating a new quiz using the ByteBrain admin portal.
+
+1. Log In
+   - Navigate to the login page and log in as an admin user.
+
+2. Access Quiz Portal
+   - Once logged in, navigate to the Quiz portal section from tab.
+
+3. Create New Quiz
+   - Click on the "Create New Quiz" button.
+   - Fill in the required details such as title, description, and upload an image.
+
+4. Define Questions
+   - Add various questions, providing correct answers.
+   - Save the quiz.
+
+5. View Quiz Details
+   - Verify that the newly created quiz appears in the list of available quizzes.
+
+Known Incomplete Areas
+- The documentation lacks detailed information on advanced customization options.
+- Advanced deployment scenarios, such as scaling for high traffic, are not covered.
+- API documentation for potential integrations is currently absent.
+
+For assistance with these areas, please reach out to the project maintainers or consult the developer community.
