@@ -29,8 +29,9 @@ Conducting Quizzes:
 Data Validation:
 14. Regular expression validation for all form inputs in the implemented functions.
 
-Programming Tools:
-15. Implementation in PHP, HTML/CSS, and JavaScript.
-16. Usage of a MYSQL database.
-17. Utilize PDO/PHP interface for MySQL access.
-18. Deployable on an Apache server.
+Requirements List
+1. Implementation in PHP, HTML/CSS, and JavaScript.
+2. Usage of a MYSQL database.
+3. Utilize PDO/PHP interface for MySQL access.
+4. Deployable on an Apache server.
+5. Utilize GitHub for version control, issues, and pull requests
