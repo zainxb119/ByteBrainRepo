@@ -1,0 +1,31 @@
+ByteBrain Project FAQ
+
+Q: What is ByteBrain?
+- A: ByteBrain is a Responsive Web-Based Online Quizzes Website that allows users to take quizzes on various topics.
+
+Q: How can I use ByteBrain?
+- A: Visit the website, register, and start exploring and taking quizzes.
+
+Q: Is ByteBrain mobile-friendly?
+- A: Yes, ByteBrain is designed to be responsive, ensuring a smooth experience on mobile devices.
+
+Q: How do I create a quiz?
+- A: Currently, quiz creation is restricted to administrators. If you're interested in contributing or have suggestions, reach out to us.
+
+Q: Can I contribute to ByteBrain?
+- A: Absolutely! Check out the GitHub repository and feel free to submit pull requests or report issues.
+
+Q: What technologies are used in ByteBrain?
+- A: ByteBrain is built with HTML, CSS, JavaScript, PHP, and MySQL. It uses the Bootstrap framework for responsiveness.
+
+Q: How can I report a bug or suggest a feature?
+- A: Head over to our GitHub repository, open an issue, and provide details. We welcome your feedback!
+
+Q: How can I contact the ByteBrain team?
+- A: For general inquiries or collaboration, you can reach us through the GitHub repository. If you encounter issues, please use the issue tracker, or contact us on our email: bytebrain0@gmail.com .
+
+Q: Is ByteBrain secure?
+- A: Yes, we implement security measures, including input validation. However, as we're in the initial stage, your feedback on security aspects is valuable.
+
+Q: Are there plans for future updates?
+- A: Yes, we plan to enhance ByteBrain based on user feedback. Follow our GitHub repository for updates and announcements.
