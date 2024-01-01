@@ -203,7 +203,6 @@ if(isset($_POST['bt']))
         </div>
         <!-- Copyright -->
     </footer>
-    <?php require('footer.php'); ?>
 
 </body>
 </html>
