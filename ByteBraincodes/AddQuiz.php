@@ -4,6 +4,21 @@ if(!isset($_SESSION["user_id"]))
     header("Location: login.php");
 if (isset($_POST['button'])) 
 {
+    if(trim($_POST['title'])=="" || trim($_POST['time'])=="" || trim($_POST['subject'])=="" || trim($_POST['ques'])=="" || trim($_POST['level'])=="") {
+        $errors[]="enter missing information";
+    }
+    if (!preg_match('/^[a-zA-Z0-9\s]{3,100}$/', $_POST['title'])) {
+        $errors[]="Title can contain letters or numbers only";
+    }
+    if (!preg_match('/^[a-zA-Z0-9\s]{3,100}$/', $_POST['subject'])) {
+        $errors[]="Subject can contain letters or numbers only";
+    }
+    if (!preg_match('/^\d{1,2}$/', $_POST['time'])) {
+        $errors[]="Max Time is 99 minutes and Min is 1 minute";
+    }
+    if (!preg_match('/^([1-9]|[1-4][0-9]|50)$/', $_POST['ques'])) {
+        $errors[]="Max number of questions is 50";
+    }
     else if (empty($errors)) {
         try 
         {
